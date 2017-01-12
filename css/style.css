@@ -1,0 +1,387 @@
+
+
+/* Due to the Fixed Navbar, a body top-margin is needed */
+
+body {
+  margin-top: 50px;
+}
+
+/* Different Section View Alignment*/
+
+
+
+
+
+/*%%%%%% HEADER CSS %%%%%%%%*/
+
+/* Trying to offset properly the ID Function in the navbar */
+#Home {
+  padding-top:70px;
+  margin-top: -70px;
+}
+
+
+.header-background{
+  background: #A9A9A9;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+  color: white
+}
+.header-title{
+  font-family: Ubuntu;
+}
+
+
+/* Icon Styling */
+
+
+
+
+.twitter {
+  font-size: 28px;
+  color: grey;
+  padding: 7px 7px 6px 9px;
+}
+.twitter:hover {
+  color: #00aced;
+}
+
+.linkedin {
+  color: grey;
+  font-size: 28px;
+}
+.linkedin:hover {
+  color: #007bb6;
+}
+
+.wordpress{
+  color: grey;
+  font-size: 28px;
+}
+.wordpress:hover{
+  color: #21759b;
+}
+.github{
+  color: grey;
+  font-size: 28px;
+}
+.github:hover{
+  color: black;
+}
+.youtube{
+  color: grey;
+  font-size: 28px;
+}
+.youtube:hover{
+  color: #e52d27;
+}
+.FCC {
+  color: grey;
+  padding: 7px 0px 0px 2px;
+  font-size: 28px;
+}
+.FCC:hover {
+  color: #008000;
+}
+
+/* Working on Responsive Specific Behavior with Icons */
+@media screen and (max-width: 768px) {
+/* Mobile-Tablet Icon Styling */
+.twitter {
+  color: #00aced;
+  padding: 7px 7px 6px 9px;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+
+.wordpress{
+  color: #21759b;
+  }
+  
+.github{
+  color: black;
+}
+
+.youtube{
+  color: #e52d27;
+}
+
+.FCC {
+  color: #008000;
+  padding: 7px 0px 0px 2px;
+
+}
+  
+}
+
+/* %% END MOBILE-TABLET ICON STYLING %% */
+
+
+/* Button styling   */
+.btn {
+  border: 0 none;
+  border-radius: 50%;
+  margin: 8px;
+  background: white;
+  outline: none;
+  width: 50px;
+  height: 50px;
+}
+
+
+/* %% END ICON STYLING %% */
+
+
+/* MISCELANEOUS */
+.hr-black{
+  border-color: grey;
+}
+
+/* Trying to offset properly the ID Function in the navbar */
+#About-Me{
+  padding-top:70px;
+  margin-top: -70px;
+}
+
+
+/* ABOUT ME CSS STARTS HERE */
+.about-me-title{
+  font-family: Roboto;
+  font-size: 30px;
+}
+.TLDR {
+  padding: 40px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+ float: left;
+}
+.TLDR-text{
+  padding: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 40px;
+}
+.box{
+  height: col-xs-8;
+  width: col-xs-8;
+}
+.TLDR-box{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  float: left;
+}
+.p-inline{
+  display: inline;
+}
+
+.border{
+    border-style: solid;
+    border-color: #000000;
+}
+.center-align {
+    text-align: center;
+}
+
+/* APTITUDES */
+
+.hr-red{
+	border-top: 2px solid #FF4136;
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.hr-green{
+	border-top: 2px solid #2ECC40;
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.hr-yellow{
+	border-top: 2px solid #FFDC00;
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.description{
+  
+}
+
+.well-margins{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* APTITUDES */
+
+/* ABOUT ME CSS ENDS HERE*/
+
+
+/* PORTFOLIO CSS STARTS HERE */
+
+.portfolio-background{
+  background: #F5F5F5;
+  font-family: Roboto;
+}
+
+.hr-black{
+  border-color: grey;
+}
+
+
+.portfolio-section-description{
+  font-family: Roboto;
+  font-size: 5px;
+}
+
+}
+.hr-white{
+  border-color: white;
+  margin-top: 20px;
+}
+
+/* Trying to offset properly the ID Function in the navbar */
+#Portfolio{
+  padding-top:70px;
+  margin-top: -70px;
+}
+
+/* COLORED AREAS OF PORTFOLIO */
+.marketing-colors {
+ background: #ffc100;
+  color: white;
+}
+
+.programming-colors{
+  background: #228B22;
+  color: white;
+}
+
+.strategy-colors{
+  background: #4169E1;
+  color: white;
+}
+
+.design-colors{
+  background: #C10E00;
+  color: white;
+}
+
+
+.bar-format{
+  font-size: 30px;
+}
+
+.portfolio-section-title{
+  font-family: Roboto;
+  font-size: 30px;
+  float: left;
+  margin: 0px 10px 0px 20px;
+}
+
+.section-title{
+  font-family: Roboto;
+  font-size: 30px;
+}
+/* Icons Formatting */
+
+.icon-format-marketing{
+  font-size: 30px;
+  margin: 3px 0px 0px 0px;
+  float: left;
+}
+
+.icon-format-programming{
+  font-size: 20px;
+}
+.icon-format-bar{
+  font-size: 30px;
+}
+.icon-format-design{
+  font-size: 25px;
+  margin: 8px 5px 5px 20px;
+}
+
+.icon-format-strategy{
+  font-size: 30px;
+  margin: 5px;
+}
+.strategy-flipped{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.icon-format-equal{
+  font-size: 30px;
+}
+.supra-index{
+  font-size: 15px;
+}
+.smaller-image{
+  width: 100px;
+}
+caption{
+  padding: -10px;
+}
+.hr-marketing-closeup{
+  margin-top: -10px;
+  border-color: #FFFF00;
+}
+.hr-programming-closeup{
+  margin-top: -10px;
+  border-color: #9ACD32;
+}
+.hr-design-closeup{
+  margin-top: -10px;
+  border-color: #FA8072;
+}
+.hr-strategy-closeup{
+  margin-top: -10px;
+  border-color: #48D1CC;
+}
+
+/* %%% FOOTER CSS %%% */
+.footer-background{
+  background: #A9A9A9;
+  color: white;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 20px;
+}
+
+/* %%% LINKS CSS %%% */
+#footer-links a, #footer-links a:link, #footer-links a:visited {
+  color: white;
+  text-decoration: none;
+}
+#footer-links a:hover {
+  color: black;
+  text-decoration: none;
+}
+/*END LINKS CSS */
+
+/* Miscelaneous Footer CSS */
+
+.footer-hr-closeup{
+  margin-top: 5px;
+}
+
+#footer-gerardo-toledo a , #footer-gerardo-toledo a:visited {
+  color: #E0FFFF;
+  text-decotarion: none;
+}
+
+#footer-gerardo-toledo a:hover {
+  text-decoration: none;
+  color: #B0E0E6;
+}
+
+/* %%%% END FOOTER CSS %%%% */
+
+.border{
+  border-color: black
+}
+
